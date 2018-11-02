@@ -67,12 +67,12 @@
         nowSlide++;
         if(nowSlide >= itemSlide.length) {nowSlide = 0;}
 
-        setInterval(function(){
-            $(itemSlide).fadeOut(speed);
-            $(itemSlide[nowSlide]).fadeIn(speed);
-            nowSlide++;
-            if(nowSlide >= itemSlide.length) {nowSlide = 0;}
-        },delay);
+        // setInterval(function(){
+        //     $(itemSlide).fadeOut(speed);
+        //     $(itemSlide[nowSlide]).fadeIn(speed);
+        //     nowSlide++;
+        //     if(nowSlide >= itemSlide.length) {nowSlide = 0;}
+        // },delay);
     });
 
 
